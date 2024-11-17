@@ -9,13 +9,16 @@
   <link rel="stylesheet" href="./assets/bootstrap-5.3.2-dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="./assets/css/main.css">
   <link rel="icon" type="image/png" sizes="16x16" href="./assets/img/favicon/favicon-16x16.png">
+  <style>
+    .thingiverse-logo, .astroprint-logo, .tinkercad-logo {
+      max-width: 200px;
+    }
+  </style>
 </head>
 <body id="body-pd">
   <header class="header" id="header">
     <div class="header_toggle"><img src="./assets/img/nav-svg/bars-sort.svg" id="header-toggle" alt="list icon" style="width: 1.7rem;" title="Toggle"></div>
   </header>
-
-
   <div class="l-navbar" id="nav-bar">
     <nav class="nav">
       <div> 
@@ -24,24 +27,18 @@
           <a href="#" class="nav_link active" title="Main Page"><img src="./assets/img/nav-svg/globe.svg" alt="list icon" style="width: 1.7rem;"><span class="nav_logo-name">Home</span></a>
           <a href="./assets/pages/CAD-Design.html" class="nav_link" title="CAD Design"><img src="./assets/img/nav-svg/CAD-Design.svg" alt="list icon" style="width: 1.7rem;"><span class="nav_logo-name">CAD Design</span></a>
           <a href="./assets/pages/3d-Printing.html" class="nav_link" title="3D Printing"><img src="./assets/img/nav-svg/cubes.svg" alt="list icon" style="width: 1.7rem;"><span class="nav_logo-name">3D Printing</span></a>
-          <a href="./assets/pages/CAD-to-gcode.html" class="nav_link" title="CAD to Gcode Conversion"><img src="./assets/img/nav-svg/display-code.svg" alt="list icon" style="width: 1.7rem;"><span class="nav_logo-name">CAD to Gcode</span></a>
+          <a href="./assets/pages/CAD-to-gcode.html" class="nav_link" title="CAD to Gcode Conversion"><img src="./assets/img/nav-svg/display-code.svg" alt="list icon" style="width: 1.7rem;"><span class="nav_logo-name">CAD to G-code</span></a>
           <a href="./assets/pages/Volunteer.html" class="nav_link" title="Volunteering"><img src="./assets/img/nav-svg/hands-heart.svg" alt="list icon" style="width: 1.7rem;"><span class="nav_logo-name">Volunteering</span></a>
         </div>
       </div> 
-      <a href="https://discovery.fclspa.org/" class="nav_link" title="Coyle Free Library"><img src="./assets/img/nav-svg/books.svg" alt="list icon" style="width: 1.7rem;"><span class="nav_logo-name">Coyle Free Library</span></a>
+      <a href="https://discovery.fclspa.org/" class="nav_link" title="Coyle Free Library" target="_blank"><img src="./assets/img/nav-svg/books.svg" alt="list icon" style="width: 1.7rem;"><span class="nav_logo-name">Coyle Free Library</span></a>
     </nav>
   </div>
-
-
   <div class="px-4 pt-5 my-5 text-center border-bottom">
     <h1 class="display-4 fw-bold text-body-emphasis">How to 3d Print</h1>
     <div class="col-lg-6 mx-auto">
-      <p class="lead mb-4">3D printing, also known as additive manufacturing, is the process of creating a three-dimensional object, usually done by systematically layering material on top of itself. The printer reads a digital file from the computer which dictates how to layer the material to build the object.</p>
-      <p class="lead mb-4">You can create unique shapes and useful household items or print others designs!</p>
-      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
-        <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">Design Your Own</button>
-        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Find A Design</button>
-      </div>
+      <p class="lead mb-4">3D printing, also known as additive manufacturing, is the process of creating a three-dimensional object, usually done by systematically layering material on top of itself. This is done in two steps. First designing then turning that design into g-code that the printer can understand. The printer reads this digital file from the computer which dictates how to layer the material to build the object.</p>
+      <p class="lead mb-4">You can create toys, missing parts, tools and useful household items or print others' designs!</p>
     </div>
     <div class="overflow-hidden" style="max-height: 800px;">
       <div class="container px-5">
@@ -49,109 +46,114 @@
       </div>
     </div>
   </div>
-
-
   <div class="container px-4 py-5" id="custom-cards">
     <div class="row g-4 py-5">
-      <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">3d printing, CAD design and gcode</h1>
+      <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">CAD Design and G-code</h1>
       <p class="lead">A 3d design is made in CAD (computer assisted design) software and exported as an STL (Stereolithography) file. The STL file is then imported into a slicer software where you can set printer parameters and export as gcode.</p>
       <div>
-        <img src="./assets/img/" alt=""><img src="" alt=""><img src="" alt="">
+        <img src="./assets/img/thingiverse-logo.jpg" alt="Thingiverse Logo" class="thingiverse-logo">
       </div>
-      <p>Tinkercad is a free web app for 3D design, electronics, and coding</p>
+      <h3>Thingiverse</h3>
+      <p>Thingiverse is a popular online platform for sharing and discovering 3D printable designs. It serves as a vast library where creators and hobbyists upload, download, and share STL files for free. Categories range from tools and gadgets to toys, art, and educational models, making it an invaluable resource for anyone interested in 3D printing. Users can remix existing designs, collaborate with the community, and explore innovative projects to bring their ideas to life.</p>
+      <div>
+        <img src="./assets/img/tinker-cad-logo.webp" alt="Tinkercad Logo" class="tinkercad-logo">
+      </div>
+      <h3>Tinkercad</h3>
+      <p>Tinkercad is a beginner-friendly, web-based 3D design and modeling platform. It enables users to create 3D models, circuits, and code-based designs with an intuitive drag-and-drop interface. Popular among educators, hobbyists, and makers, Tinkercad is perfect for designing 3D printable objects, from simple gadgets to complex structures. Its accessibility and ease of use make it an ideal tool for learning and creating in the world of 3D design.</p>
+      <div>
+        <img src="./assets/img/astroprint_logo.webp" alt="AstroPrint Logo" class="astroprint-logo">
+      </div>
+      <h3>AstroPrint</h3>
+      <p>AstroPrint is a cloud-based platform designed to simplify 3D printing workflows. It enables users to slice, manage, and monitor 3D prints from anywhere, using an intuitive interface accessible on desktops, tablets, and smartphones. With features like file storage, printer control, and real-time monitoring, AstroPrint is ideal for both beginners and advanced users looking to streamline the 3D printing process</p>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+        <a href="https://www.tinkercad.com/" target="_blank"><button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">Design Your Own</button></a>
+        <a href="https://www.thingiverse.com/" target="_blank"><button type="button" class="btn btn-outline-secondary btn-lg px-4">Find A Design</button></a>
+      </div>
       <div class="col">
         <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('./assets/img/eqKaVb5Q2bWASVsXhz8B--grid.jpg');">
           <div class="d-flex flex-column h-100 p-5 pb-3 text-black text-shadow-1">
-            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold"><span style="background-color: rgba(240, 248, 255, 0.5); border-radius: 20px;">Learn CAD Design</span></h3>
+            <a href="http://127.0.0.1:5500/assets/pages/CAD-Design.html"><h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold"><span style="background-color: rgba(240, 248, 255, 0.5); border-radius: 20px; color: black;">Learn CAD Design</span></h3></a>
           </div>
         </div>
       </div>
-
       <div class="col">
         <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('./assets/img/tom-claes-qCM9SDZqEHs-unsplash.jpg');">
           <div class="d-flex flex-column h-100 p-5 pb-3 text-black text-shadow-1">
-            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold"><span style="background-color: rgba(240, 248, 255, 0.5); border-radius: 20px;">Volunteer</span></h3>
+            <a href="http://127.0.0.1:5500/assets/pages/Volunteer.html"><h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold"><span style="background-color: rgba(240, 248, 255, 0.5); border-radius: 20px;color: black;">Volunteer</span></h3></a>
           </div>
         </div>
       </div>
-
       <div class="col">
         <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('./assets/img/NMvdSkKU8u0EmqCGjiTf--grid.jpg');">
           <div class="d-flex flex-column h-100 p-5 pb-3 text-black text-shadow-1">
-            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold"><span style="background-color: rgba(240, 248, 255, 0.5); border-radius: 20px;">Pre-Made Designs</span></h3>
+            <a href="https://www.thingiverse.com/" target="_blank"><h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold"><span style="background-color: rgba(240, 248, 255, 0.5); border-radius: 20px;color: black;">Pre-Made Designs</span></h3></a>
           </div>
         </div>
       </div>
     </div>
   </div>
-
-
-
   <div class="container px-4 py-5" id="icon-grid">
     <h2 class="pb-2 border-bottom">Popular Thingiverse Categories</h2>
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
       <div class="col d-flex align-items-start">
         <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#bootstrap"/></svg>
         <div>
-          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Gadgets</h3>
-          <p>Paragraph of text beneath the heading to explain the heading.</p>
+          <a href="https://www.thingiverse.com/?page=1&category_id=65" target="_blank"><h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Gadgets</h3></a>
+          <p>3D printing allows you to create unique gadgets like smartphone stands, cable organizers, and custom cases. These small, functional items can enhance everyday convenience and showcase innovative designs.</p>
         </div>
       </div>
       <div class="col d-flex align-items-start">
         <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#cpu-fill"/></svg>
         <div>
-          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Hobby</h3>
-          <p>Paragraph of text beneath the heading to explain the heading.</p>
+          <a href="https://www.thingiverse.com/?page=1&category_id=66" target="_blank"><h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Hobby</h3></a>
+          <p>Hobbyists use 3D printing to craft items for personal projects, such as model trains, drones, or cosplay props. It's a creative outlet for exploring interests and customizing designs to fit specific needs.</p>
         </div>
       </div>
       <div class="col d-flex align-items-start">
         <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#calendar3"/></svg>
         <div>
-          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Household</h3>
-          <p>Paragraph of text beneath the heading to explain the heading.</p>
+          <a href="https://www.thingiverse.com/?page=1&category_id=67" target="_blank"><h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Household</h3></a>
+          <p>From storage solutions like bins and hooks to replacement parts for appliances, 3D printing can improve or repair items around the home. It's perfect for designing objects that fit your space and style.</p>
         </div>
       </div>
       <div class="col d-flex align-items-start">
         <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#home"/></svg>
         <div>
-          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Learning</h3>
-          <p>Paragraph of text beneath the heading to explain the heading.</p>
+          <a href="https://www.thingiverse.com/?page=1&category_id=69" target="_blank"><h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Learning</h3></a>
+          <p>3D printing is a valuable tool for education, providing hands-on learning opportunities in STEM fields. It's often used to create teaching aids, like geometric models, maps, or interactive experiments, enhancing understanding.</p>
         </div>
       </div>
       <div class="col d-flex align-items-start">
         <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#speedometer2"/></svg>
         <div>
-          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Tools</h3>
-          <p>Paragraph of text beneath the heading to explain the heading.</p>
+          <a href="https://www.thingiverse.com/?page=1&category_id=71" target="_blank"><h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Tools</h3></a>
+          <p>Custom tools or parts, such as wrenches, clamps, or measuring jigs, can be printed to suit specific tasks. This category highlights the practical applications of 3D printing in DIY and professional settings.</p>
         </div>
       </div>
       <div class="col d-flex align-items-start">
         <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#toggles2"/></svg>
         <div>
-          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Toys</h3>
-          <p>Paragraph of text beneath the heading to explain the heading.</p>
+          <a href="https://www.thingiverse.com/?page=1&category_id=72" target="_blank"><h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Toys</h3></a>
+          <p>Create custom toys, figurines, or game pieces with 3D printing. It's ideal for designing personalized gifts or bringing imagination to life with unique, interactive creations.</p>
         </div>
       </div>
       <div class="col d-flex align-items-start">
         <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#geo-fill"/></svg>
         <div>
-          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Fashion</h3>
-          <p>Paragraph of text beneath the heading to explain the heading.</p>
+          <a href="https://www.thingiverse.com/?page=1&category_id=64" target="_blank"><h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Fashion</h3></a>
+          <p>3D printing in fashion allows designers to create intricate and customizable clothing, accessories, and footwear. From 3D-printed jewelry to avant-garde dresses, this technology pushes the boundaries of traditional design, enabling unique, sustainable, and often on-demand creations.</p>
         </div>
       </div>
       <div class="col d-flex align-items-start">
-        <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#tools"/></svg>
+        <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#geo-fill"/></svg>
         <div>
-          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Art</h3>
-          <p>Paragraph of text beneath the heading to explain the heading.</p>
+          <a href="https://www.thingiverse.com/?page=1&category_id=63" target="_blank"><h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Art</h3></a>
+          <p>Artists use 3D printing to bring their visions to life through sculptures, installations, and intricate designs that would be impossible to achieve with traditional methods. This technology opens up new creative possibilities, blending digital precision with artistic expression to produce groundbreaking works of art.</p>
         </div>
       </div>
     </div>
   </div>
-
-
-
-  <div class="container px-4 py-5">
+  <!-- <div class="container px-4 py-5">
     <div class="row row-cols-1 row-cols-sm-2 g-4">
       <div class="col d-flex flex-column gap-2">
         <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
@@ -162,7 +164,6 @@
         <h4 class="fw-semibold mb-0 text-body-emphasis">Featured title</h4>
         <p class="text-body-secondary">Paragraph of text beneath the heading to explain the heading.</p>
       </div>
-
       <div class="col d-flex flex-column gap-2">
         <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
           <svg class="bi" width="1em" height="1em">
@@ -172,7 +173,6 @@
         <h4 class="fw-semibold mb-0 text-body-emphasis">Featured title</h4>
         <p class="text-body-secondary">Paragraph of text beneath the heading to explain the heading.</p>
       </div>
-
       <div class="col d-flex flex-column gap-2">
         <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
           <svg class="bi" width="1em" height="1em">
@@ -182,7 +182,6 @@
         <h4 class="fw-semibold mb-0 text-body-emphasis">Featured title</h4>
         <p class="text-body-secondary">Paragraph of text beneath the heading to explain the heading.</p>
       </div>
-
       <div class="col d-flex flex-column gap-2">
         <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
           <svg class="bi" width="1em" height="1em">
@@ -193,11 +192,7 @@
         <p class="text-body-secondary">Paragraph of text beneath the heading to explain the heading.</p>
       </div>
     </div>
-  </div>
-
-
-
-
+  </div> -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
   <script src="./assets/bootstrap-5.3.2-dist/js/bootstrap.min.js"></script>
