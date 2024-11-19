@@ -71,7 +71,8 @@
         <div class="col-lg-12 mx-auto">
           <div class="text-white p-5 shadow-sm rounded" style="background-color: #a770ef;">
             <h1 style="padding-top: 20px;" class="display-4">Our 3d Printer</h1>
-            <p class="lead">"model" and "print bed size"</p>
+            <p class="lead">"model" and "print size"</p>
+            <p>Documentation and Troubleshooting</p>
           </div>
         </div>
       </div>
@@ -79,93 +80,283 @@
         <div class="px-lg-5">
           <div class="row py-5">
             <div class="col-lg-12 mx-auto">
-              <img src="../img/printer-diagram-labeled.png" alt="Printer Diagram with Labels" style="width: 70%; margin: 0 auto; padding: 40px 0;">
-              <h3>Once you have your design that you would like to print it is time to get the printer ready.</h3>
-              <h4>You will need to put down blue painter's tape and/or spray adhesion depending on what you are printing and set the printer bed temperature, the printer nozzle temperature</h4>
+              <div class="image-wrapper" style="margin: 0 auto; text-align: center;">
+                <img src="../img/printer-diagram-labeled.png" alt="Printer Diagram with Labels" style="width: 70%; margin: 0 auto; padding: 40px 0;">
+              </div>
+              <h3 class="pt-5 pb-5">Once you have a design you would like to print, it is time to get the printer ready.</h3>
+              <h4 class="pt-5 pb-5">You will need to put down blue painter's tape and/or spray adhesion depending on what you are printing and set the printer bed and nozzle temperature.</h4>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      <div class="container px-4 py-5" id="custom-cards">
+        <!-- <h2 class="pb-2 border-bottom">Custom cards</h2> -->
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-1.jpg');">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h3 class="pt-2 mt-5 mb-4 display-6 lh-1 fw-bold">Setup the Printer</h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                    <!-- <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white"> -->
+                  </li>
+                  <li class="d-flex align-items-center me-3">
+                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
+                    <!-- <small>Earth</small> -->
+                  </li>
+                  <li class="d-flex align-items-center">
+                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
+                    <!-- <small>3d</small> -->
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-3.jpg');">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                <h3 class="pt-2 mt-5 mb-4 display-6 lh-1 fw-bold">Remove Print</h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                    <!-- <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white"> -->
+                  </li>
+                  <li class="d-flex align-items-center me-3">
+                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
+                    <!-- <small>California</small> -->
+                  </li>
+                  <li class="d-flex align-items-center">
+                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
+                    <!-- <small>5d</small> -->
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-2.jpg');">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h3 class="pt-2 mt-5 mb-4 display-6 lh-1 fw-bold">Troubleshoot Basic Issues</h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                    <!-- <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white"> -->
+                  </li>
+                  <li class="d-flex align-items-center me-3">
+                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
+                    <!-- <small>Pakistan</small> -->
+                  </li>
+                  <li class="d-flex align-items-center">
+                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
+                    <!-- <small>4d</small> -->
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container px-4 py-5" id="icon-grid">
+        <h2 class="pb-2 border-bottom">Setting up a 3D printer for a successful print involves a few essential steps to ensure the machine is ready and optimized. Here's a breakdown of the process:</h2>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+          <div class="col d-flex align-items-start">
+            <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#bootstrap"/></svg> 
+            <div class="myDIV">
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Leveling the Print Bed</h3>
+              <p>A level bed is crucial for ensuring the first layer adheres correctly, setting the foundation for the entire print.</p>
+            </div>
+            <!-- <div class="hide">Manual Leveling:
+              Home the printer (move the nozzle to the starting position).
+              Place a piece of paper or a feeler gauge between the nozzle and the print bed.
+              Adjust the bed leveling screws at each corner so the nozzle lightly drags the paper or gauge as you move it.
+              Repeat for all corners and the center to ensure uniformity.
+              Automatic Bed Leveling (if available):
+              Use the printer's software or built-in sensor to calibrate the bed automatically.
+              Ensure the sensor is clean and functioning properly.
+            </div> -->
+          </div>
+          <div class="col d-flex align-items-start">
+            <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#cpu-fill"/></svg>
+            <div class="myDIV">
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Heating the Bed and Nozzle</h3>
+              <p>Heating prepares the printer for proper adhesion and extrusion.</p>
+            </div>
+            <!-- <div class="hide">
+              Set the Bed Temperature:
+              Typical bed temperatures:
+              PLA: 50-60°C
+              ABS: 80-110°C
+              Ensure the bed reaches the target temperature before starting the print.
+              Heat the Nozzle:
+              Typical nozzle temperatures:
+              PLA: 190-220°C
+              ABS: 230-250°C
+              Check the filament spool for specific temperature recommendations.
+            </div> -->
+          </div>
+          <div class="col d-flex align-items-start">
+            <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#calendar3"/></svg>
+            <div class="myDIV">
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Checking the Filament and Extruder Nozzle</h3>
+              <p>To prevent clogs or interruptions, ensure the filament and nozzle are in good condition.</p>
+            </div>
+            <!-- <div class="hide">
+              Load the Filament:
+              Insert the filament into the extruder.
+              Use the printer's interface to load the filament until it extrudes cleanly from the nozzle.
+              Clear Nozzle Clogs:
+              If the filament doesn't extrude smoothly, clean the nozzle:
+              Heat the nozzle to the filament's melting temperature.
+              Use a cleaning tool or filament cleaner to push out blockages.
+              Avoid using sharp objects that could damage the nozzle.
+              Check for Filament Quality:
+              Ensure the filament is not brittle or tangled.
+            </div> -->
+          </div>
+          <div class="col d-flex align-items-start">
+            <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#home"/></svg>
+            <div class="myDIV">
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Final Checks Before Printing</h3>
+              <p></p>
+            </div>
+            <!-- <div class="hide">
+              Ensure the bed is clean and free of dust or leftover material. Use isopropyl alcohol for cleaning.
+                Verify that the print file is correctly sliced and loaded onto the printer.
+                Double-check the printer's settings, including bed and nozzle temperatures, and start the print.
+            </div> -->
+          </div>
+        </div>
+      </div>
+      <div class="container px-4 py-5" id="icon-grid">
+        <h2 class="pb-2 border-bottom">Manual Leveling:</h2>
+        <p>Home the printer (move the nozzle to the starting position).</p>
+        <p>Place a piece of paper or a feeler gauge between the nozzle and the print bed.</p>
+        <p>Adjust the bed leveling screws at each corner so the nozzle lightly drags the paper or gauge as you move it.</p>
+        <p>Repeat for all corners and the center to ensure uniformity.</p>
+        <h2 class="pb-2 border-bottom">Automatic Bed Leveling (if available):</h2>
+        <p>Use the printer's software or built-in sensor to calibrate the bed automatically.</p>
+        <p>Ensure the sensor is clean and functioning properly.</p>
+      </div>
+      <div class="container px-4 py-5" id="icon-grid">
+        <h2 class="pb-2 border-bottom">Set the Bed Temperature:</h2>
+        <h2 class="pb-2 border-bottom">Typical bed temperatures:</h2>
+        <p>PLA: 50-60°C</p>
+        <p>ABS: 80-110°C</p>
+        <p>Ensure the bed reaches the target temperature before starting the print.</p>
+        <h2 class="pb-2 border-bottom">Heat the Nozzle:</h2>
+        <h2 class="pb-2 border-bottom">Typical nozzle temperatures:</h2>
+        <p>PLA: 190-220°C</p>
+        <p>ABS: 230-250°C</p>
+        <p>Check the filament spool for specific temperature recommendations.</p>
+      </div>
+      <div class="container px-4 py-5" id="icon-grid">
+        <h2 class="pb-2 border-bottom">Load the Filament:</h2>
+        <p>Insert the filament into the extruder.</p>
+        <p>Use the printer's interface to load the filament until it extrudes cleanly from the nozzle.</p>
+        <h2 class="pb-2 border-bottom">Clear Nozzle Clogs:</h2>
+        <h2 class="pb-2 border-bottom">If the filament doesn't extrude smoothly, clean the nozzle:</h2>
+        <p>Heat the nozzle to the filament's melting temperature.</p>
+        <p>Use a cleaning tool or filament cleaner to push out blockages.</p>
+        <p>Avoid using sharp objects that could damage the nozzle.</p>
+      </div>
+      <div class="container px-4 py-5" id="icon-grid">
+        <!-- <h2 class="pb-2 border-bottom">Manual Leveling:</h2> -->
+        <p>Ensure the bed is clean and free of dust or leftover material. Use isopropyl alcohol for cleaning.</p>
+        <p>Verify that the print file is correctly sliced and loaded onto the printer.</p>
+        <p>Double-check the printer's settings, including bed and nozzle temperatures, and start the print.</p>
+      </div>
+      <div class="container-fluid">
+        <div class="px-lg-5">
+          <div class="row py-5">
+            <div class="col-lg-12 mx-auto">
               <h4>3D Printing Bed Adhesion</h4>
-              <h5>What is 3D printing bed adhesion?</h5>
-              <p>Bed adhesion in 3D printing is how well the printed plastic parts are able to stick to the build plate. Good bed adhesion means that the plastic will not be easily removed or nudged, while poor bed adhesion means that it might move around during the printing process.</p>
-              <p>Essentially, as the filament hardens on the build plate, bed adhesion is what keeps everything in place. If the plastic pieces become top-heavy or get bumped, adhesion to the build plate is what keeps everything in place.</p>
-              <h5>Why is bed adhesion important for 3D printing?</h5>
-              <p>Bed adhesion is an important part of the 3D printing process. Luckily, there are special products designed to create the perfect amount of bed adhesion. Here are the reasons why bed adhesion is so crucial in 3D printing.</p>
-              <h5>Not enough adhesion</h5>
-              <p>If the 3D printed parts are loose enough to move around during the printing process, it can ruin the entire build. 3D printing requires exact measurements, so any sort of movement can misalign the entire build.</p>
-              <h5>Too much adhesion</h5>
-              <p>Alternatively, if the build plate has too much adhesion, it can be difficult to remove the plastic components. Any particularly thin pieces can potentially become damaged by the greater force required to remove them from the adhesion.</p>
-              <h4>3d Printing Bed Adhesion</h4>
-              <h5>Blue Painter's Tape</h5>
-              <p>Specialized blue painter's tape is a great option for creating bed adhesion. The porous nature of the blue tape allows PLA nylon, and other filaments to stick directly to the back of the tape. Painter's tape is also heat resistant so it can withstand heated beds and the heat of the filament.</p>
-              <h5>Adhesive Spray</h5>
-              <p>Another option for bed adhesion is adhesive sprays. You simply spray the adhesive onto the plate and start printing. This route is easy and allows you to maintain a level bed. Plus, cleaning up is simple too, as most sprays are soluble in water.</p>
-              <p>Even though this is certainly a convenient method of getting your prints to stick, it is not the most effective. Getting an even stickiness to the bed with a spray can be difficult, and often it can be hard to get the bed to be sticky enough.</p>
-              <p>There are a few other methods available like Glue or PEI (Polyetherimide) sheets but they are not explored here or recommended for this printer.</p>
-              <h4>How to Use Blue Tape for 3D Printing</h4>
-              <h5>Clean the Surface</h5>
-              <p>Before you start applying the tape, you should clean your printing bed of all residue. This lets the tape stick and helps to keep your plate level.</p>
-              <h5>Taping a 3D Printer Bed</h5>
-              <p>While it will take a few minutes to properly tape your build plate, the prep work is not too difficult and can quickly be mastered.</p>
-              <p>With the adhesive side down, lay the tape down side by side. You want to be as precise as possible with this step so that there are no gaps that could let the filament through, but you also do not want any overlap of the tape which would cause the surface to be uneven.</p>
-              <h5>Tape Diagonally</h5>
-              <p>A key tip for taping a build plate is to lay the pieces of tape diagonally. When laying out the pieces side by side, start from one corner at a forty-five degree angle and work your way over.</p>
-              <p>This is helpful because it keeps the tape from warping with the print. If the straight edges of the print line up with the straight edges of the tape, the tape can lift off the plate as the filament cools.</p>
-              <h5>Remove Bubbles with the Scraper</h5>
-              <p>As you lay the pieces of tape down, be sure that there are no bubbles underneath the tape. To ensure this, run a scraper over every piece as you place it.</p>
-              <p>You want to be gentle so that you do not damage or tear the tape, but you must be firm enough to remove any imperfections. If there is a piece of tape that becomes unusable, tear it off and try again; it is better to waste one piece of tape than an entire print!</p>
-              <h5>Trim the Tape</h5>
-              <p>When sizing up the strip of tape, pull it so it is longer than the width of the plate. Then when placing it, be sure to leave plenty of slack on either side of the plate. With a sharp razor, carefully slice the ends of the tape so it is flush with the sides of the plate.</p> 
-              <p>If you don't have a razor, it is also an option to wrap the excess tape underneath the bottom of the plate. However, this can affect the leveling of the build plate.</p>
-              <h5>Avoid Touching the Top of the Tape</h5>
-              <p>During this whole process of taping your build plate, try to touch the top of the tape as little as possible. The oils in your fingers can affect the porousness of the tape. </p>
-              <p>If you are trying to print onto tape that you have been touching a lot, the oils from your hands may keep your parts from adhering to the tape. It is not so impactful that you need to wear gloves to place the tape, but just keep your contact to the tape at a minimum.</p>
-              <h5>Preparing the Surface of the Tape</h5>
-              <p>Once you have your blue painter's tape on the build plate, there are various ways you can prepare the surface of your tape. Depending on what kind of adhesion you are looking for, you can use different methods for your own work.</p> 
-              <p>You want to find the best balance between adhesion and clean removals that you can. If it has too much grip, the parts will not be easily removed. This could rip the tape or damage the parts. Too little adhesion will keep the printed parts from staying in place.</p> 
-              <h5>Unprepped Blue Tape</h5>
-              <p>Leaving the blue tape untreated is a viable way to get adhesion. The porous nature of the tape allows the filament to attach itself, keeping your printed parts in place.</p> 
-              <p>This method of adhesion should give you extremely clean removals. However, for prints that are top-heavy or unbalanced, you may need more adhesion to keep them steady and attached.</p> 
-              <h5>Scuffed Blue Tape</h5>
-              <p>A simple trick you can use to add more adhesion to your blue tape is to scuff up the surface. Just take a dry sponge and rub-down the spot that you want to add adhesion to. By doing this, you increase the porousness of the tape, allowing the filament to stick to it even more.</p> 
-              <p>This increases the adhesion of the tape, but it still allows for very clean removal of printed parts. The downside is, it will limit the lifespan of your tape. If you continue scuffing the same spot print after print, the tape will become worn down more quickly and will stop giving you quality results.</p> 
-              <h5>Glue on Blue Tape</h5>
-              <p>Another option to greatly increase adhesion is combining blue tape with other methods of adhesion. Spraying adhesive spray on top of the tape can give it more grab, and adding glue to the tape can increase it even more!</p> 
-              <p>However, adding too much adhesive can cause problems. If you have a print with a large surface area stuck to the tape, it can be very challenging to remove it cleanly from the build plate.</p> 
-              <p>Additionally, while you can clean glue and spray off of the build plate, you cannot clean it off of tape. Using alcohol to clean glue off of the tape ruins porousness, making it unusable for future prints.</p>
-              <h5>When to Add More Adhesion to the Build Plate</h5>
-              <p>The typical rule of thumb is the more surface area that is in contact with the plate, the greater the adhesion will be. This is a good rule to take into account when dealing with bed adhesion. Blue painter's tape will already provide great adhesion even without any added prep work.</p> 
-              <h5>Large-Based Parts</h5>
-              <p>If your printed part has a wide base that will be making a lot of contact with the build plate, it could be unwise to add more adhesion. It could become difficult to remove the part even without added adhesion.</p>
-              <h5>Small-Based Parts</h5>
-              <p>On the other hand, printed pieces that have small legs or slim bases will not attach as firmly to the tape. These pieces may need additional adhesion to keep it in place.</p>
-              <h5>How to Safely Remove a 3D Print from a Bed</h5>
-              <p>The best way to remove a 3D printed part from a taped bed is simply to wrench it loose with your hand. Do this carefully though, because applying too much force could snap your part.</p> 
-              <p>You want to use this method if you can because it will preserve the quality of your tape, letting you use it again for future prints. However, if the adhesive of the tape is too strong, use these tricks to remove your printed parts safely.</p>
-              <h5>Pry with a Putty Knife</h5>
-              <p>After trying to wiggle the printed part free with your hand, the next course of action should be to use a putty knife to pry the piece off of the plate. If you can, slide the knife under a corner and work around the part, gently prying the piece free.</p>
-              <h5>Remove the Tape</h5>
-              <p>If that does not work, then the next step will be to remove the tape from the build plate. You can use your knife to make tears in the tape so you can remove it all.</p> 
-              <h5>Spray Isopropyl Alcohol</h5>
-              <p>It is possible that the tape will tear up everywhere except for underneath the part. In this instance, you will want to spray or rub a solution made up of alcohol and water around the base of the piece. Wait a few seconds and the printed part and the tape underneath should remove easily.</p> 
-              <h5>When to Remove Blue Tape from a 3D Printer Bed</h5>
-              <p>If you treat your blue tape carefully, you can get several weeks of use (up to 20 prints) out of a single taping. The more care you take with placing and maintaining your tape, the longer it will work for you.</p> 
-              <p>If you need to apply alcohol, tear up the tape, or the filament stops sticking to it, you will have to apply a fresh layer of tape to the build plate.</p> 
-              <h5>How to Remove Blue Tape from a 3D Printer Bed</h5>
-              <p>Once you decide that it is the proper time to remove the tape, the process is as simple as unsticking it from the plate. If you have trouble getting it off in spots where parts were built, spray some alcohol and wait ten seconds. It should come off cleanly after that.</p>
-              <p>Once you have removed all of the tape, you should clean the build plate with alcohol so that there is no adhesive residue left behind. Once you have a clean build plate, you are ready to retape it to begin your next print!</p>
-              <p>Please visit <a href="https://tapemanblue.com/blogs/tips-tricks/blue-tape-for-3d-printing">the full website</a> to learn more about using painter's tape for 3d printing.</p>
-              <h2>Steps to use our 3d printer.</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae minima recusandae, rerum voluptas dolor ducimus tempore laudantium aspernatur aperiam incidunt.</p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae minima recusandae, rerum voluptas dolor ducimus tempore laudantium aspernatur aperiam incidunt.</p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae minima recusandae, rerum voluptas dolor ducimus tempore laudantium aspernatur aperiam incidunt.</p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae minima recusandae, rerum voluptas dolor ducimus tempore laudantium aspernatur aperiam incidunt.</p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae minima recusandae, rerum voluptas dolor ducimus tempore laudantium aspernatur aperiam incidunt.</p>
-              <h2>After print:</h2>
-              <h2>How to remove a print from the printer bed.</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae minima recusandae, rerum voluptas dolor ducimus tempore laudantium aspernatur aperiam incidunt.</p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae minima recusandae, rerum voluptas dolor ducimus tempore laudantium aspernatur aperiam incidunt.</p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae minima recusandae, rerum voluptas dolor ducimus tempore laudantium aspernatur aperiam incidunt.</p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae minima recusandae, rerum voluptas dolor ducimus tempore laudantium aspernatur aperiam incidunt.</p>
-              <h2><a href="#">Full guide to our printer</a></h2>
-              <h2 style="padding-top: 40px;">After printing you can sand and paint your creation</h2>
+              <h5>Keeping your print in place</h5>
+              <div class="row">
+                <!-- Gallery item -->
+                <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+                  <div class="bg-white rounded shadow-sm"><img src="https://bootstrapious.com/i/snippets/sn-gallery/img-1.jpg" alt="" class="img-fluid card-img-top">
+                    <div class="p-4">
+                      <h5> <a href="#" class="text-dark">What is 3D printing bed adhesion?</a></h5>
+                      <p class="small text-muted mb-0">Bed adhesion in 3D printing is how well the printed plastic parts are able to stick to the build plate. Good bed adhesion means that the plastic will not be easily removed or nudged, while poor bed adhesion means that it might move around during the printing process.</p>
+                      <p>Essentially, as the filament hardens on the build plate, bed adhesion is what keeps everything in place. If the plastic pieces become top-heavy or get bumped, adhesion to the build plate is what keeps everything in place.</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- End -->
+                <!-- Gallery item -->
+                <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+                  <div class="bg-white rounded shadow-sm"><img src="https://bootstrapious.com/i/snippets/sn-gallery/img-2.jpg" alt="" class="img-fluid card-img-top">
+                    <div class="p-4">
+                      <h5> <a href="#" class="text-dark">Why is bed adhesion important for 3D printing?</a></h5>
+                      <p>Bed adhesion is an important part of the 3D printing process. Luckily, there are special products designed to create the perfect amount of bed adhesion. Here are the reasons why bed adhesion is so crucial in 3D printing.</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- End -->
+                <!-- Gallery item -->
+                <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+                  <div class="bg-white rounded shadow-sm"><img src="https://bootstrapious.com/i/snippets/sn-gallery/img-3.jpg" alt="" class="img-fluid card-img-top">
+                    <div class="p-4">
+                      <h5> <a href="#" class="text-dark">Not enough adhesion</a></h5>
+                      <p>If the 3D printed parts are loose enough to move around during the printing process, it can ruin the entire build. 3D printing requires exact measurements, so any sort of movement can misalign the entire build.</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- End -->
+                <!-- Gallery item -->
+                <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+                  <div class="bg-white rounded shadow-sm"><img src="https://bootstrapious.com/i/snippets/sn-gallery/img-4.jpg" alt="" class="img-fluid card-img-top">
+                    <div class="p-4">
+                      <h5> <a href="#" class="text-dark">Too much adhesion</a></h5>
+                      <p>Alternatively, if the build plate has too much adhesion, it can be difficult to remove the plastic components. Any particularly thin pieces can potentially become damaged by the greater force required to remove them from the adhesion.</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- End -->
+                <!-- Gallery item -->
+                <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+                  <div class="bg-white rounded shadow-sm"><img src="https://bootstrapious.com/i/snippets/sn-gallery/img-5.jpg" alt="" class="img-fluid card-img-top">
+                    <div class="p-4">
+                      <h5> <a href="#" class="text-dark">Blue Painter's Tape</a></h5>
+                      <p>Specialized blue painter's tape is a great option for creating bed adhesion. The porous nature of the blue tape allows PLA nylon, and other filaments to stick directly to the back of the tape. Painter's tape is also heat resistant so it can withstand heated beds and the heat of the filament.</p>
+                      <p>With the adhesive side down, lay the tape down side by side. You want to be as precise as possible with this step so that there are no gaps that could let the filament through, but you also do not want any overlap of the tape which would cause the surface to be uneven.</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- End -->
+                <!-- Gallery item -->
+                <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+                  <div class="bg-white rounded shadow-sm"><img src="https://bootstrapious.com/i/snippets/sn-gallery/img-6.jpg" alt="" class="img-fluid card-img-top">
+                    <div class="p-4">
+                      <h5> <a href="#" class="text-dark">Adhesive Spray</a></h5>
+                      <p>Another option for bed adhesion is adhesive sprays. You simply spray the adhesive onto the plate and start printing. This route is easy and allows you to maintain a level bed. Plus, cleaning up is simple too, as most sprays are soluble in water.</p>
+                      <p>Even though this is certainly a convenient method of getting your prints to stick, it is not the most effective. Getting an even stickiness to the bed with a spray can be difficult, and often it can be hard to get the bed to be sticky enough.</p>
+                      <p>There are a few other methods available like Glue or PEI (Polyetherimide) sheets but they are not explored here or recommended for this printer.</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- End -->
+                <!-- Gallery item -->
+                <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+                  <div class="bg-white rounded shadow-sm"><img src="https://bootstrapious.com/i/snippets/sn-gallery/img-7.jpg" alt="" class="img-fluid card-img-top">
+                    <div class="p-4">
+                      <h5> <a href="#" class="text-dark">Clean the Surface</a></h5>
+                      <p>Before you start applying the tape, you should clean your printing bed of all residue. This lets the tape stick and helps to keep your plate level.</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- End -->
+                <!-- Gallery item -->
+                <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+                  <div class="bg-white rounded shadow-sm"><img src="https://bootstrapious.com/i/snippets/sn-gallery/img-8.jpg" alt="" class="img-fluid card-img-top">
+                    <div class="p-4">
+                      <h5> <a href="#" class="text-dark">Avoid Touching the Top of the Tape</a></h5>
+                      <p>During this whole process of taping your build plate, try to touch the top of the tape as little as possible. The oils in your fingers can affect the porousness of the tape. </p>
+                      <p>If you are trying to print onto tape that you have been touching a lot, the oils from your hands may keep your parts from adhering to the tape. It is not so impactful that you need to wear gloves to place the tape, but just keep your contact to the tape at a minimum.</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- End -->
+              </div>
             </div>
           </div>
         </div>
@@ -175,12 +366,9 @@
         <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
           <div class="bg-white rounded shadow-sm"><img src="https://bootstrapious.com/i/snippets/sn-gallery/img-1.jpg" alt="" class="img-fluid card-img-top">
             <div class="p-4">
-              <h5> <a href="#" class="text-dark">Red paint cup</a></h5>
-              <p class="small text-muted mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-              <div class="d-flex align-items-center justify-content-between rounded-pill bg-light px-3 py-2 mt-4">
-                <p class="small mb-0"><i class="fa fa-picture-o mr-2"></i><span class="font-weight-bold">JPG</span></p>
-                <div class="badge badge-danger px-3 rounded-pill font-weight-normal">New</div>
-              </div>
+              <h5> <a href="#" class="text-dark">Tape Diagonally</a></h5>
+              <p>A key tip for taping a build plate is to lay the pieces of tape diagonally. When laying out the pieces side by side, start from one corner at a forty-five degree angle and work your way over.</p>
+              <p>This is helpful because it keeps the tape from warping with the print. If the straight edges of the print line up with the straight edges of the tape, the tape can lift off the plate as the filament cools.</p>
             </div>
           </div>
         </div>
@@ -189,12 +377,9 @@
         <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
           <div class="bg-white rounded shadow-sm"><img src="https://bootstrapious.com/i/snippets/sn-gallery/img-2.jpg" alt="" class="img-fluid card-img-top">
             <div class="p-4">
-              <h5> <a href="#" class="text-dark">Blorange</a></h5>
-              <p class="small text-muted mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-              <div class="d-flex align-items-center justify-content-between rounded-pill bg-light px-3 py-2 mt-4">
-                <p class="small mb-0"><i class="fa fa-picture-o mr-2"></i><span class="font-weight-bold">PNG</span></p>
-                <div class="badge badge-primary px-3 rounded-pill font-weight-normal">Trend</div>
-              </div>
+              <h5> <a href="#" class="text-dark">Remove Bubbles with the Scraper</a></h5>
+              <p>As you lay the pieces of tape down, be sure that there are no bubbles underneath the tape. To ensure this, run a scraper over every piece as you place it.</p>
+              <p>You want to be gentle so that you do not damage or tear the tape, but you must be firm enough to remove any imperfections. If there is a piece of tape that becomes unusable, tear it off and try again; it is better to waste one piece of tape than an entire print!</p>
             </div>
           </div>
         </div>
@@ -203,12 +388,9 @@
         <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
           <div class="bg-white rounded shadow-sm"><img src="https://bootstrapious.com/i/snippets/sn-gallery/img-3.jpg" alt="" class="img-fluid card-img-top">
             <div class="p-4">
-              <h5> <a href="#" class="text-dark">And She Realized</a></h5>
-              <p class="small text-muted mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-              <div class="d-flex align-items-center justify-content-between rounded-pill bg-light px-3 py-2 mt-4">
-                <p class="small mb-0"><i class="fa fa-picture-o mr-2"></i><span class="font-weight-bold">JPG</span></p>
-                <div class="badge badge-warning px-3 rounded-pill font-weight-normal text-white">Featured</div>
-              </div>
+              <h5> <a href="#" class="text-dark">Trim the Tape</a></h5>
+              <p>When sizing up the strip of tape, pull it so it is longer than the width of the plate. Then when placing it, be sure to leave plenty of slack on either side of the plate. With a sharp razor, carefully slice the ends of the tape so it is flush with the sides of the plate.</p> 
+              <p>If you don't have a razor, it is also an option to wrap the excess tape underneath the bottom of the plate. However, this can affect the leveling of the build plate.</p>
             </div>
           </div>
         </div>
@@ -217,82 +399,22 @@
         <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
           <div class="bg-white rounded shadow-sm"><img src="https://bootstrapious.com/i/snippets/sn-gallery/img-4.jpg" alt="" class="img-fluid card-img-top">
             <div class="p-4">
-              <h5> <a href="#" class="text-dark">DOSE Juice</a></h5>
-              <p class="small text-muted mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-              <div class="d-flex align-items-center justify-content-between rounded-pill bg-light px-3 py-2 mt-4">
-                <p class="small mb-0"><i class="fa fa-picture-o mr-2"></i><span class="font-weight-bold">JPEG</span></p>
-                <div class="badge badge-success px-3 rounded-pill font-weight-normal">Hot</div>
-              </div>
+              <h5> <a href="#" class="text-dark">Preparing the Surface of the Tape</a></h5>
+              <p>Once you have your blue painter's tape on the build plate, there are various ways you can prepare the surface of your tape. Depending on what kind of adhesion you are looking for, you can use different methods for your own work.</p> 
+              <p>You want to find the best balance between adhesion and clean removals that you can. If it has too much grip, the parts will not be easily removed. This could rip the tape or damage the parts. Too little adhesion will keep the printed parts from staying in place.</p>
             </div>
           </div>
         </div>
         <!-- End -->
-        <!-- Gallery item -->
-        <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
-          <div class="bg-white rounded shadow-sm"><img src="https://bootstrapious.com/i/snippets/sn-gallery/img-5.jpg" alt="" class="img-fluid card-img-top">
-            <div class="p-4">
-              <h5> <a href="#" class="text-dark">Pineapple</a></h5>
-              <p class="small text-muted mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-              <div class="d-flex align-items-center justify-content-between rounded-pill bg-light px-3 py-2 mt-4">
-                <p class="small mb-0"><i class="fa fa-picture-o mr-2"></i><span class="font-weight-bold">PNG</span></p>
-                <div class="badge badge-primary px-3 rounded-pill font-weight-normal">New</div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- End -->
-        <!-- Gallery item -->
-        <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
-          <div class="bg-white rounded shadow-sm"><img src="https://bootstrapious.com/i/snippets/sn-gallery/img-6.jpg" alt="" class="img-fluid card-img-top">
-            <div class="p-4">
-              <h5> <a href="#" class="text-dark">Yellow banana</a></h5>
-              <p class="small text-muted mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-              <div class="d-flex align-items-center justify-content-between rounded-pill bg-light px-3 py-2 mt-4">
-                <p class="small mb-0"><i class="fa fa-picture-o mr-2"></i><span class="font-weight-bold">JPG</span></p>
-                <div class="badge badge-warning px-3 rounded-pill font-weight-normal text-white">Featured</div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- End -->
-        <!-- Gallery item -->
-        <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
-          <div class="bg-white rounded shadow-sm"><img src="https://bootstrapious.com/i/snippets/sn-gallery/img-7.jpg" alt="" class="img-fluid card-img-top">
-            <div class="p-4">
-              <h5> <a href="#" class="text-dark">Teal Gameboy</a></h5>
-              <p class="small text-muted mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-              <div class="d-flex align-items-center justify-content-between rounded-pill bg-light px-3 py-2 mt-4">
-                <p class="small mb-0"><i class="fa fa-picture-o mr-2"></i><span class="font-weight-bold">JPEG</span></p>
-                <div class="badge badge-info px-3 rounded-pill font-weight-normal">Hot</div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- End -->
-        <!-- Gallery item -->
-        <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
-          <div class="bg-white rounded shadow-sm"><img src="https://bootstrapious.com/i/snippets/sn-gallery/img-8.jpg" alt="" class="img-fluid card-img-top">
-            <div class="p-4">
-              <h5> <a href="#" class="text-dark">Color in Guatemala.</a></h5>
-              <p class="small text-muted mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-              <div class="d-flex align-items-center justify-content-between rounded-pill bg-light px-3 py-2 mt-4">
-                <p class="small mb-0"><i class="fa fa-picture-o mr-2"></i><span class="font-weight-bold">PNG</span></p>
-                <div class="badge badge-warning px-3 rounded-pill font-weight-normal text-white">Featured</div>
-              </div>
-            </div>
-          </div>
-        </div>
+
         <!-- End -->
         <!-- Gallery item -->
         <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
           <div class="bg-white rounded shadow-sm"><img src="https://bootstrapious.com/i/snippets/sn-gallery/img-1.jpg" alt="" class="img-fluid card-img-top">
             <div class="p-4">
-              <h5> <a href="#" class="text-dark">Red paint cup</a></h5>
-              <p class="small text-muted mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-              <div class="d-flex align-items-center justify-content-between rounded-pill bg-light px-3 py-2 mt-4">
-                <p class="small mb-0"><i class="fa fa-picture-o mr-2"></i><span class="font-weight-bold">JPG</span></p>
-                <div class="badge badge-danger px-3 rounded-pill font-weight-normal">New</div>
-              </div>
+              <h5> <a href="#" class="text-dark">Unprepped Blue Tape</a></h5>
+              <p>Leaving the blue tape untreated is a viable way to get adhesion. The porous nature of the tape allows the filament to attach itself, keeping your printed parts in place.</p> 
+              <p>This method of adhesion should give you extremely clean removals. However, for prints that are top-heavy or unbalanced, you may need more adhesion to keep them steady and attached.</p> 
             </div>
           </div>
         </div>
@@ -301,12 +423,9 @@
         <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
           <div class="bg-white rounded shadow-sm"><img src="https://bootstrapious.com/i/snippets/sn-gallery/img-2.jpg" alt="" class="img-fluid card-img-top">
             <div class="p-4">
-              <h5> <a href="#" class="text-dark">Lorem ipsum dolor</a></h5>
-              <p class="small text-muted mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-              <div class="d-flex align-items-center justify-content-between rounded-pill bg-light px-3 py-2 mt-4">
-                <p class="small mb-0"><i class="fa fa-picture-o mr-2"></i><span class="font-weight-bold">PNG</span></p>
-                <div class="badge badge-primary px-3 rounded-pill font-weight-normal">Trend</div>
-              </div>
+              <h5> <a href="#" class="text-dark">Scuffed Blue Tape</a></h5>
+              <p>A simple trick you can use to add more adhesion to your blue tape is to scuff up the surface. Just take a dry sponge and rub-down the spot that you want to add adhesion to. By doing this, you increase the porousness of the tape, allowing the filament to stick to it even more.</p> 
+              <p>This increases the adhesion of the tape, but it still allows for very clean removal of printed parts. The downside is, it will limit the lifespan of your tape. If you continue scuffing the same spot print after print, the tape will become worn down more quickly and will stop giving you quality results.</p>
             </div>
           </div>
         </div>
@@ -315,12 +434,10 @@
         <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
           <div class="bg-white rounded shadow-sm"><img src="https://bootstrapious.com/i/snippets/sn-gallery/img-3.jpg" alt="" class="img-fluid card-img-top">
             <div class="p-4">
-              <h5> <a href="#" class="text-dark">Lorem ipsum dolor</a></h5>
-              <p class="small text-muted mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-              <div class="d-flex align-items-center justify-content-between rounded-pill bg-light px-3 py-2 mt-4">
-                <p class="small mb-0"><i class="fa fa-picture-o mr-2"></i><span class="font-weight-bold">JPG</span></p>
-                <div class="badge badge-warning px-3 rounded-pill font-weight-normal text-white">Featured</div>
-              </div>
+              <h5> <a href="#" class="text-dark">Glue on Blue Tape</a></h5>
+              <p>Another option to greatly increase adhesion is combining blue tape with other methods of adhesion. Spraying adhesive spray on top of the tape can give it more grab, and adding glue to the tape can increase it even more!</p> 
+              <p>However, adding too much adhesive can cause problems. If you have a print with a large surface area stuck to the tape, it can be very challenging to remove it cleanly from the build plate.</p> 
+              <p>Additionally, while you can clean glue and spray off of the build plate, you cannot clean it off of tape. Using alcohol to clean glue off of the tape ruins porousness, making it unusable for future prints.</p>
             </div>
           </div>
         </div>
@@ -329,182 +446,101 @@
         <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
           <div class="bg-white rounded shadow-sm"><img src="https://bootstrapious.com/i/snippets/sn-gallery/img-4.jpg" alt="" class="img-fluid card-img-top">
             <div class="p-4">
-              <h5> <a href="#" class="text-dark">Lorem ipsum dolor</a></h5>
-              <p class="small text-muted mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-              <div class="d-flex align-items-center justify-content-between rounded-pill bg-light px-3 py-2 mt-4">
-                <p class="small mb-0"><i class="fa fa-picture-o mr-2"></i><span class="font-weight-bold">JPEG</span></p>
-                <div class="badge badge-success px-3 rounded-pill font-weight-normal">Hot</div>
-              </div>
+              <h5> <a href="#" class="text-dark">When to Add More Adhesion to the Build Plate</a></h5>
+              <p>The typical rule of thumb is the more surface area that is in contact with the plate, the greater the adhesion will be. This is a good rule to take into account when dealing with bed adhesion. Blue painter's tape will already provide great adhesion even without any added prep work.</p> 
+            </div>
+          </div>
+        </div>
+        <!-- End -->
+         <!-- End -->
+        <!-- Gallery item -->
+        <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+          <div class="bg-white rounded shadow-sm"><img src="https://bootstrapious.com/i/snippets/sn-gallery/img-1.jpg" alt="" class="img-fluid card-img-top">
+            <div class="p-4">
+              <h5> <a href="#" class="text-dark">Large-Based Parts</a></h5>
+              <p>If your printed part has a wide base that will be making a lot of contact with the build plate, it could be unwise to add more adhesion. It could become difficult to remove the part even without added adhesion.</p>
+            </div>
+          </div>
+        </div>
+        <!-- End -->
+        <!-- Gallery item -->
+        <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+          <div class="bg-white rounded shadow-sm"><img src="https://bootstrapious.com/i/snippets/sn-gallery/img-2.jpg" alt="" class="img-fluid card-img-top">
+            <div class="p-4">
+              <h5> <a href="#" class="text-dark">Small-Based Parts</a></h5>
+              <p>On the other hand, printed pieces that have small legs or slim bases will not attach as firmly to the tape. These pieces may need additional adhesion to keep it in place.</p>
+            </div>
+          </div>
+        </div>
+        <!-- End -->
+        <!-- Gallery item -->
+        <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+          <div class="bg-white rounded shadow-sm"><img src="https://bootstrapious.com/i/snippets/sn-gallery/img-3.jpg" alt="" class="img-fluid card-img-top">
+            <div class="p-4">
+              <h5> <a href="#" class="text-dark">How to Safely Remove a 3D Print from a Bed</a></h5>
+              <p>The best way to remove a 3D printed part from a taped bed is simply to wrench it loose with your hand. Do this carefully though, because applying too much force could snap your part.</p> 
+              <p>You want to use this method if you can because it will preserve the quality of your tape, letting you use it again for future prints. However, if the adhesive of the tape is too strong, use these tricks to remove your printed parts safely.</p>
+            </div>
+          </div>
+        </div>
+        <!-- End -->
+        <!-- Gallery item -->
+        <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+          <div class="bg-white rounded shadow-sm"><img src="https://bootstrapious.com/i/snippets/sn-gallery/img-4.jpg" alt="" class="img-fluid card-img-top">
+            <div class="p-4">
+              <h5> <a href="#" class="text-dark">Pry with a Putty Knife</a></h5>
+              <p>After trying to wiggle the printed part free with your hand, the next course of action should be to use a putty knife to pry the piece off of the plate. If you can, slide the knife under a corner and work around the part, gently prying the piece free.</p>
+            </div>
+          </div>
+        </div>
+        <!-- End -->
+         <!-- End -->
+        <!-- Gallery item -->
+        <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+          <div class="bg-white rounded shadow-sm"><img src="https://bootstrapious.com/i/snippets/sn-gallery/img-1.jpg" alt="" class="img-fluid card-img-top">
+            <div class="p-4">
+              <h5> <a href="#" class="text-dark">Remove the Tape</a></h5>
+              <p>If that does not work, then the next step will be to remove the tape from the build plate. You can use your knife to make tears in the tape so you can remove it all.</p> 
+            </div>
+          </div>
+        </div>
+        <!-- End -->
+        <!-- Gallery item -->
+        <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+          <div class="bg-white rounded shadow-sm"><img src="https://bootstrapious.com/i/snippets/sn-gallery/img-2.jpg" alt="" class="img-fluid card-img-top">
+            <div class="p-4">
+              <h5> <a href="#" class="text-dark">Spray Isopropyl Alcohol</a></h5>
+              <p>It is possible that the tape will tear up everywhere except for underneath the part. In this instance, you will want to spray or rub a solution made up of alcohol and water around the base of the piece. Wait a few seconds and the printed part and the tape underneath should remove easily.</p> 
+            </div>
+          </div>
+        </div>
+        <!-- End -->
+        <!-- Gallery item -->
+        <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+          <div class="bg-white rounded shadow-sm"><img src="https://bootstrapious.com/i/snippets/sn-gallery/img-3.jpg" alt="" class="img-fluid card-img-top">
+            <div class="p-4">
+              <h5> <a href="#" class="text-dark">When to Remove Blue Tape from a 3D Printer Bed</a></h5>
+              <p>If you treat your blue tape carefully, you can get several weeks of use (up to 20 prints) out of a single taping. The more care you take with placing and maintaining your tape, the longer it will work for you.</p> 
+              <p>If you need to apply alcohol, tear up the tape, or the filament stops sticking to it, you will have to apply a fresh layer of tape to the build plate.</p>
+            </div>
+          </div>
+        </div>
+        <!-- End -->
+        <!-- Gallery item -->
+        <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+          <div class="bg-white rounded shadow-sm"><img src="https://bootstrapious.com/i/snippets/sn-gallery/img-4.jpg" alt="" class="img-fluid card-img-top">
+            <div class="p-4">
+              <h5> <a href="#" class="text-dark">How to Remove Blue Tape from a 3D Printer Bed</a></h5>
+              <p>Once you decide that it is the proper time to remove the tape, the process is as simple as unsticking it from the plate. If you have trouble getting it off in spots where parts were built, spray some alcohol and wait ten seconds. It should come off cleanly after that.</p>
+              <p>Once you have removed all of the tape, you should clean the build plate with alcohol so that there is no adhesive residue left behind. Once you have a clean build plate, you are ready to retape it to begin your next print!</p>
             </div>
           </div>
         </div>
         <!-- End -->
       </div>
-      <div class="py-5 text-right"><a href="#" class="btn btn-dark px-5 py-3 text-uppercase">Show me more</a></div>
     </div>
   </div>
-  <div class="container col-xxl-8 px-4 py-5">
-    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-      <div class="col-10 col-sm-8 col-lg-6">
-        <img src="../img/gavin-allanwood-Q1NS-nISNIw-unsplash.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
-      </div>
-      <div class="col-lg-6">
-        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Responsive left-aligned hero with image</h1>
-        <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world's most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
-        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-          <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
-          <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="container px-4 py-5" id="custom-cards">
-    <h2 class="pb-2 border-bottom">Custom cards</h2>
-    <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
-      <div class="col">
-        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-1.jpg');">
-          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Short title, long jacket</h3>
-            <ul class="d-flex list-unstyled mt-auto">
-              <li class="me-auto">
-                <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
-              </li>
-              <li class="d-flex align-items-center me-3">
-                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
-                <small>Earth</small>
-              </li>
-              <li class="d-flex align-items-center">
-                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
-                <small>3d</small>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-2.jpg');">
-          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Much longer title that wraps to multiple lines</h3>
-            <ul class="d-flex list-unstyled mt-auto">
-              <li class="me-auto">
-                <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
-              </li>
-              <li class="d-flex align-items-center me-3">
-                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
-                <small>Pakistan</small>
-              </li>
-              <li class="d-flex align-items-center">
-                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
-                <small>4d</small>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-3.jpg');">
-          <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Another longer title belongs here</h3>
-            <ul class="d-flex list-unstyled mt-auto">
-              <li class="me-auto">
-                <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
-              </li>
-              <li class="d-flex align-items-center me-3">
-                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
-                <small>California</small>
-              </li>
-              <li class="d-flex align-items-center">
-                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
-                <small>5d</small>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="container px-4 py-5" id="icon-grid">
-    <h2 class="pb-2 border-bottom">Setting up a 3D printer for a successful print involves a few essential steps to ensure the machine is ready and optimized. Here's a breakdown of the process:</h2>
-    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
-      <div class="col d-flex align-items-start">
-        <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#bootstrap"/></svg> 
-        <div class="myDIV">
-          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Leveling the Print Bed</h3>
-          <p>A level bed is crucial for ensuring the first layer adheres correctly, setting the foundation for the entire print.</p>
-        </div>
-        <div class="hide">Manual Leveling:
-
-          Home the printer (move the nozzle to the starting position).
-          Place a piece of paper or a feeler gauge between the nozzle and the print bed.
-          Adjust the bed leveling screws at each corner so the nozzle lightly drags the paper or gauge as you move it.
-          Repeat for all corners and the center to ensure uniformity.
-          Automatic Bed Leveling (if available):
-          
-          Use the printer's software or built-in sensor to calibrate the bed automatically.
-          Ensure the sensor is clean and functioning properly.
-        
-        </div>
-      </div>
-      <div class="col d-flex align-items-start">
-        <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#cpu-fill"/></svg>
-        <div class="myDIV">
-          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Heating the Bed and Nozzle</h3>
-          <p>Heating prepares the printer for proper adhesion and extrusion.</p>
-        </div>
-        <div class="hide">
-          
-          Set the Bed Temperature:
-
-          Typical bed temperatures:
-          PLA: 50-60°C
-          ABS: 80-110°C
-          Ensure the bed reaches the target temperature before starting the print.
-          Heat the Nozzle:
-
-          Typical nozzle temperatures:
-          PLA: 190-220°C
-          ABS: 230-250°C
-          Check the filament spool for specific temperature recommendations.
-
-        </div>
-      </div>
-      <div class="col d-flex align-items-start">
-        <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#calendar3"/></svg>
-        <div class="myDIV">
-          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Checking the Filament and Extruder Nozzle</h3>
-          <p>To prevent clogs or interruptions, ensure the filament and nozzle are in good condition.</p>
-        </div>
-        <div class="hide">
-          Load the Filament:
-
-          Insert the filament into the extruder.
-          Use the printer's interface to load the filament until it extrudes cleanly from the nozzle.
-          Clear Nozzle Clogs:
-
-          If the filament doesn’t extrude smoothly, clean the nozzle:
-          Heat the nozzle to the filament’s melting temperature.
-          Use a cleaning tool or filament cleaner to push out blockages.
-          Avoid using sharp objects that could damage the nozzle.
-          Check for Filament Quality:
-
-          Ensure the filament is not brittle or tangled.
-        </div>
-      </div>
-      <div class="col d-flex align-items-start">
-        <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#home"/></svg>
-        <div class="myDIV">
-          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Final Checks Before Printing</h3>
-          <p></p>
-        </div>
-        <div class="hide">
-          Ensure the bed is clean and free of dust or leftover material. Use isopropyl alcohol for cleaning.
-            Verify that the print file is correctly sliced and loaded onto the printer.
-            Double-check the printer's settings, including bed and nozzle temperatures, and start the print.
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="col">
+  <!-- <div class="col">
     <div class="row row-cols-1 row-cols-sm-2 g-4">
       <div class="col d-flex flex-column gap-2">
         <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
@@ -543,7 +579,7 @@
         <p class="text-body-secondary">Paragraph of text beneath the heading to explain the heading.</p>
       </div>
     </div>
-  </div>
+  </div> -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
   <script src="../bootstrap-5.3.2-dist/js/bootstrap.min.js"></script>
